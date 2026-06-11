@@ -24,6 +24,10 @@
         /// <summary>
         /// 紫色(暗)
         /// </summary>
-        Purple
+        Purple,
+        /// <summary>
+        /// 粉色(心)
+        /// </summary>
+        Pink
     }
 }
