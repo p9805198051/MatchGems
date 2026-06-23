@@ -60,7 +60,7 @@ namespace MatchGems.Core
         /// 取得指定格子的寶石
         /// </summary>
         /// <param name="coord">定位資料</param>
-        /// <returns>寶石類型</returns>
+        /// <returns>寶石資料</returns>
         public GemData GetGem(CellCoord coord)
         {
             return _gems[coord.X, coord.Y];
