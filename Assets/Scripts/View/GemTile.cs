@@ -27,7 +27,10 @@ namespace MatchGems.View
                 return _spriteRenderer;
             }
         }
-        private Sprite _defaultSprite;
+        /// <summary>
+        /// [靜態]共用Sprite變數
+        /// </summary>
+        private static Sprite _defaultSprite;
         #endregion 基本參數
 
         #region 公開功能
@@ -69,12 +72,12 @@ namespace MatchGems.View
         {
             switch (gemType)
             {
-                case GemType.Red:return Color.red;
-                case GemType.Blue:return Color.blue;
-                case GemType.Green:return Color.green;
-                case GemType.Yellow:return Color.yellow;
-                case GemType.Purple:return Color.purple;
-                case GemType.Pink:return Color.pink;
+                case GemType.Red: return Color.red;
+                case GemType.Blue: return Color.blue;
+                case GemType.Green: return Color.green;
+                case GemType.Yellow: return Color.yellow;
+                case GemType.Purple: return Color.magenta;
+                case GemType.Pink: return new Color(1f, 0.4f, 0.7f); // Pink: RGB(255,102,179)
             }
             return Color.white;
         }
