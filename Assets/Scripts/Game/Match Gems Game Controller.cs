@@ -6,6 +6,9 @@ namespace MatchGems.Game
 {
     public class MatchGemsGameController : MonoBehaviour
     {
+        /// <summary>
+        /// 遊戲流程主程式(控制)
+        /// </summary>
         #region 基本參數
         [SerializeField] private BoardView _boardView;
         [SerializeField] private int _width = 8;
